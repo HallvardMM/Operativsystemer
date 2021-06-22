@@ -1,0 +1,16 @@
+echo display input
+cat input.txt
+echo display ls command
+ls
+echo do cd ..
+cd ..
+echo display ls command
+ls
+echo do cd practical4
+cd practical4
+echo make dir test_folder
+mkdir test_folder
+echo put ls value into test.txt
+ls > test.txt
+echo display readme.md sorted
+sort < readme.md
